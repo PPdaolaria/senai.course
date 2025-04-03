@@ -1,0 +1,46 @@
+programa 
+{
+  real num1
+  real num2
+  real result
+
+
+  funcao inicio() 
+  {
+    escreva("Insira o numero 1:\n")
+    leia(num1)
+    
+    escreva("Insira o numero 2:\n")
+    leia(num2)
+
+    escreva("Insira a equação \n", "1 - Multiplicacao, 2 - Divisao, 3 - Soma, 4 - Subtração: \n")
+    leia(result)
+
+ se (result == 1)  
+        {  
+            result = num1 * num2
+            escreva ("Multiplicacao: ", result)  
+        }  
+
+ se (result == 2)
+      {
+        result = num1 / num2
+        escreva("Divisao: ", result)
+      }
+  
+  se (result == 3)
+      {
+        result = num1 + num2
+        escreva("Soma: ", result)
+      }
+  
+  se (result == 4)
+
+      {
+        result = num1 - num2
+        escreva("Subtracao: ", result)
+      }
+  
+  }
+
+}
