@@ -1,0 +1,19 @@
+programa 
+{
+  real cust, imp, dist, final
+  
+  funcao inicio() 
+  {
+    escreva("Insira o custo do carro: \n")
+    leia(cust)
+
+  se (cust > 0 )
+    {
+      imp = (cust * (45 / 100))
+      dist = (cust * (28 / 100))
+      final = imp + dist + cust
+
+      escreva("Preço para o consumidor: ", final)
+    }
+  }
+}
